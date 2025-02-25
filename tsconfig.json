@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "declaration": true,
+    "declarationDir": "dist",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "es2021",
+    "lib": ["es2021", "dom"],
+    "downlevelIteration": true,
+  },
+  "include": ["src/**/*", "tests/**/*", "examples/**/*"]
+}
