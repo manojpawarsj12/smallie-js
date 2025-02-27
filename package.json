@@ -1,6 +1,6 @@
 {
   "name": "smallie-js",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A reactive library for templated DOM rendering.",
   "main": "dist/smallie-js.cjs.js",
   "module": "dist/smallie-js.esm.js",
