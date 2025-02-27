@@ -4,11 +4,11 @@ export default {
   input: "src/index.ts",
   output: [
     {
-      file: "dist/smallie-js.cjs.js",
+      file: "dist/smolie-js.cjs.js",
       format: "cjs"
     },
     {
-      file: "dist/smallie-js.esm.js",
+      file: "dist/smolie-js.esm.js",
       format: "esm"
     }
   ],

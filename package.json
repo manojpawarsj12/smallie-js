@@ -1,16 +1,16 @@
 {
-  "name": "smallie-js",
+  "name": "smolie-js",
   "version": "0.0.1",
   "description": "A reactive library for templated DOM rendering.",
-  "main": "dist/smallie-js.cjs.js",
-  "module": "dist/smallie-js.esm.js",
+  "main": "dist/smolie-js.cjs.js",
+  "module": "dist/smolie-js.esm.js",
   "types": "dist/src/index.d.ts",
   "files": [
     "dist"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/manojpawarsj12/smallie-js.git"
+    "url": "https://github.com/manojpawarsj12/smolie-js.git"
   },
   "scripts": {
     "build": "rollup -c",

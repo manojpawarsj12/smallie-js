@@ -1,4 +1,4 @@
-import { signal, html, computed, each } from "/dist/smallie-js.esm.js";
+import { signal, html, computed, each } from "/dist/smolie-js.esm.js";
 
 /** @typedef {{ id: number; text: string; done: boolean; }} Todo */
 

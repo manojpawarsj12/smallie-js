@@ -1,4 +1,4 @@
-# Smallie-js
+# smolie-js
 
 This project is a TypeScript library that provides a signal and effect management system along with HTML rendering functions. It is designed to facilitate the creation and manipulation of DOM elements in a reactive manner under 1kb.
 
@@ -7,7 +7,7 @@ This project is a TypeScript library that provides a signal and effect managemen
 To install the library, you can use npm:
 
 ```
-npm install smallie-js
+npm install smolie-js
 ```
 
 
@@ -18,7 +18,7 @@ npm install smallie-js
 You can import the library in your TypeScript or JavaScript files as follows:
 
 ```typescript
-import { signal, effect, html, each , computed } from 'smallie-js';
+import { signal, effect, html, each , computed } from 'smolie-js';
 ```
 
 ### Signal and Effect Management
