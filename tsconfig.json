@@ -9,7 +9,7 @@
     "skipLibCheck": true,
     "target": "es2021",
     "lib": ["es2021", "dom"],
-    "downlevelIteration": true,
+    "downlevelIteration": true
   },
   "include": ["src/**/*", "tests/**/*", "examples/**/*"]
 }

@@ -64,6 +64,7 @@ document.body.append(...renderList());
 - **html(tpl: TemplateStringsArray, ...data: any[]): Node[]** - Creates a template and binds data.
 - **each(val: any, getKey: Function, tpl: Function): Function** - Renders a list of items.
 - **computed(fn: Function): Function** – Returns a derived reactive signal that automatically recalculates its value when its dependencies change.
+- **render(node: Node, attr: string | null, value: any): void** – Reactively updates a DOM node by setting an attribute (if provided) or updating its child content based on the given reactive value or function.
 
 
 ## License

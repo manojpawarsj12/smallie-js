@@ -2,9 +2,14 @@
   "name": "smallie-js",
   "version": "1.0.0",
   "description": "A reactive library for templated DOM rendering.",
+  "main": "dist/smallie-js.cjs.js",
+  "module": "dist/smallie-js.esm.js",
+  "types": "dist/src/index.d.ts",
+  "files": ["dist"],
   "scripts": {
     "build": "rollup -c",
-    "test": "jest"
+    "test": "jest",
+    "serve": "npx http-server -c-1 -o"
   },
   "keywords": [
     "reactive",

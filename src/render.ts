@@ -1,5 +1,13 @@
 import { effect } from "./reactive";
 
+/**
+ * Creates a template and binds data to it.
+ * It takes a tagged template literal and returns an array of DOM nodes.
+ *
+ * @param tpl - A TemplateStringsArray containing the HTML template.
+ * @param data - The data to bind into the template.
+ * @returns An array of DOM Nodes generated from the template.
+ */
 export function html(
   tpl: TemplateStringsArray,
   ...data: unknown[]
@@ -41,6 +49,31 @@ export function html(
 }
 
 type RenderValue = unknown;
+
+/**
+ * Renders reactive updates to a given DOM node.
+ *
+ * This function applies dynamic changes to a DOM node based on a reactive value.
+ * It supports two modes:
+ * 1. When an attribute name (`attr`) is provided, it updates that attribute on the node.
+ * 2. When `attr` is null, it updates the child nodes of the node.
+ *
+ * If the provided value is a function, it registers a reactive effect so that the node
+ * is updated whenever the underlying reactive value changes.
+ *
+ * @param {Node} node - The DOM node to render updates to.
+ * @param {string | null} attr - The attribute to update on the node. If null, the node's child nodes are updated.
+ * @param {any} value - The reactive value or a function returning a value, which can be a primitive, Node, or an array of Nodes.
+ *
+ * @example
+ * // Update an element's text content reactively:
+ * render(myElement, null, () => "Hello, world!");
+ *
+ * @example
+ * // Update an input's "value" attribute reactively:
+ * render(myInput, "value", () => mySignal());
+ */
+
 
 export function render(
   node: Node,
